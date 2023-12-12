@@ -76,7 +76,7 @@ table{/*padrão de largura das tabelas*/
      background:scroll;
 }
 .textborder{/*Formatação de texto home*/
-    text-align: left;
+    text-align: justify;
 }
 
 .enviar:hover{
@@ -104,8 +104,9 @@ table{/*padrão de largura das tabelas*/
 }
 /*####################################################################*/
 .projetos{/*Texto na pag projetos*/
+    padding-left: 80px;
     justify-content: center;
-    text-align: left;
+    text-align: justify;
     text-decoration: none;
 }
 a:visited,a{/*ação para links visitados*/
@@ -118,8 +119,14 @@ a:hover{/*efeito hover - passar o mouse por cima*/
     text-decoration: none 
 }
 .iconprojeto{
-    padding-left: 10px;
     width: 80px;
-    position: absolute;
     font-family: Verdana;
+    display: flex;
+}
+.iconprojeto:hover, 
+.links:hover, 
+.icons:hover{
+    transition-delay: 1ms;
+    transition-duration: 1s;
+    transform: scale(1.2);
 }
